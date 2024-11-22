@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Full stack developer">
+    <meta name="keywords" content="portfolio, web design, web developer, web design portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hareesh">
+
+    <title>Hareesh</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/service.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo" style="z-index: 5;">
+          <img src="images/logo.png" alt="logo">
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Service</a></li>
+          <li><a href="#contact-container">Contact</a></li>
+          <li id="sidebar">
+            <i class="fa fa-bars fa-3x">
+            </i>
+            </li>
+        </ul>
+      </nav>
+      <main>
+        <div id="home">
+            <div id="name">
+                <h1>Hareesh <br> <span style="color: #1da1f2;">Duddupudi</span><h1>
+                <p>Web Developer</p>
+                <button>Get Connected</button>
+            </div>
+            <div id="profile">
+                <img src="images/profile.jpeg" alt="profile">
+            </div>
+        </div>
+        <div id="about">
+            <p>About me</p>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>Hareesh Duddupudi</td>
+                    <td>hareeshduddupudi@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>Phone</th>
+                    <th>Degree</th>
+                </tr>
+                <tr>
+                    <td>+91 9448669271</td>
+                    <td>Bachelor's</td>
+                </tr>
+                <tr>
+                    <th>Freelance</th>
+                </tr>
+                <tr>
+                    <td>Available</td>
+                </tr>
+            </table>
+        </div>
+        <div id="service-resume">
+            <div id="service-resume-achieve">
+                <div id="projects">
+                    <i class="fa fa-briefcase fa-5x"></i><hr>
+                    <div>
+                        <h2>Full Stack Web Developer<span style="font-weight: lighter; font-size: 15px;"><br>(2023 - Present)</span></h2>
+                        <h3>IT Defined</h3>
+                        <p style="color: rgb(169, 166, 166);">ReactJs | NodeJs | MySql</p>
+                    </div><br><hr><br>
+                    <div>
+                        <h2>Programme Analyst<span style="font-weight: lighter; font-size: 15px;"><br>(2016 - 2018)</span></h2>
+                        <h3>Cognizant</h3>
+                        <p style="color: rgb(169, 166, 166);">Java | Spring Boot</p>
+                    </div><br><hr><br>
+                </div>
+                <div id="education">
+                    <i class="fa fa-graduation-cap fa-5x"></i><hr>
+                    <div>
+                        <h2>Bachelor of engineering<span style="font-weight: lighter; font-size: 15px;"><br>(2018 - 2022)</span></h2>
+                        <h3>DSCE College</h3>
+                        <p style="color: rgb(169, 166, 166);">Information Science and Engineering</p>
+                    </div><br><hr><br>
+                    <div>
+                        <h2>PCMC <span style="font-weight: lighter; font-size: 15px;"><br>(2016 - 2018)</span></h2>
+                        <h3>Vidyaniketan P.U College</h3>
+                        <p style="color: rgb(169, 166, 166);">Computer science</p>
+                    </div><br><hr><br>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; margin-bottom: 100px;">
+            <button>Download CV</button>
+        </div>
+        <div id="services">
+            <div>
+                <h2 style="text-align: center; color: #1da1f2; margin-bottom: 50px;">Services</h2>
+            </div>
+            <div id="client-service">
+                <div class="client-service-box">
+                    <i class="fa fa-desktop fa-4x" style="padding-bottom: 20px;"></i>
+                    <h2>Website Design</h2>
+                </div>
+                <div class="client-service-box">
+                    <i class="fa fa-object-ungroup fa-4x" style="padding-bottom: 20px;"></i>
+                    <h2>Graphic Design</h2>
+                </div>
+                <div class="client-service-box">
+                    <i class="fa fa-desktop fa-4x" style="padding-bottom: 20px;"></i>
+                    <h2>Digital Marketing</h2>
+                </div>
+                <div class="client-service-box">
+                    <i class="fa fa-database fa-4x" style="padding-bottom: 20px;"></i>
+                    <h2>Database Design</h2>
+                </div>
+                <div class="client-service-box">
+                    <i class="fa fa-id-card fa-4x" style="padding-bottom: 20px;"></i>
+                    <h2>Consulting</h2>
+                </div>
+                <div class="client-service-box">
+                    <i class="fa fa-code fa-4x" style="padding-bottom: 20px;"></i>
+                    <h2>Web Development</h2>
+                </div>
+            </div>
+        </div>
+        
+        <form id="contact-container">
+            <h2 style="text-align: center; color: #1da1f2;">Contact</h2>
+            <input type="text" name="" id="" placeholder="Name" required>
+            <input type="email" name="" id="email" placeholder="Email" required>
+            <input type="tel" name="" id="phone" placeholder="Phone" required>
+            <input type="text" name="" id="subject" placeholder="Subject" required>
+            <textarea placeholder="Write your message here" id="message" required></textarea>
+            <button type="submit">Submit now</button>
+        </form>
+
+      </main>
+</body>
+</html>

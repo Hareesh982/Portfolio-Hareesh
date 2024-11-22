@@ -1,0 +1,40 @@
+main #about{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    justify-content: center;
+    text-align: center;
+}
+
+main #about p{
+    text-align:center;
+    color: white;
+    font-size: 40px;
+}
+
+table{
+    text-align: start;
+    border: 1px solid rgb(89, 88, 88);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+th,td{
+    text-align: start;
+    padding: 10px;
+}
+td{
+    color: rgb(169, 166, 166);
+}
+@media (max-width:600px){
+    table{
+        padding: 5px;
+    }
+}
+
+
+
+ 
+
+
+

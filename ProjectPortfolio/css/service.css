@@ -1,0 +1,35 @@
+
+.client-service-box{
+    width: 275px;
+    padding: 40px 20px 20px 20px;
+    background-color: #3a2b71;
+    border: 2px solid #3a2b71;
+    border-radius: 10px;
+    line-height: 2;
+    text-align: center;
+    
+}
+#client-service{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#service-resume-achieve{
+    display: flex;
+    justify-content: space-around;
+
+}
+#projects{
+    padding: 20px;
+}
+#education{
+    padding: 20px;
+}
+@media (min-width:300px) and (max-width:500px){
+    #service-resume-achieve{
+        flex-direction: column;
+    }
+}
